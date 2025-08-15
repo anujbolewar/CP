@@ -34,11 +34,11 @@ public:
 };
 
 int main() {
-    ios::sync_with_stdio(false); // Fast I/O
+    ios::sync_with_stdio(false); 
     cin.tie(nullptr);
 
-    freopen("input.txt", "r", stdin);   // input from file
-    freopen("output.txt", "w", stdout); // output to file
+    freopen("input.txt", "r", stdin);  
+    freopen("output.txt", "w", stdout); 
 
     int n;
     cin >> n;

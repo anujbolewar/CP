@@ -22,18 +22,17 @@ public:
 };
 
 int main() {
-    // Fast I/O
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
 
     Solution sol;
 
     int n, m;
-    cin >> n; // number of students
+    cin >> n; 
     vector<int> g(n);
     for (int i = 0; i < n; i++) cin >> g[i];
 
-    cin >> m; // number of cookies
+    cin >> m;
     vector<int> s(m);
     for (int i = 0; i < m; i++) cin >> s[i];
 
