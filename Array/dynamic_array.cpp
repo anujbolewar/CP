@@ -1,8 +1,6 @@
 #include <iostream>
 
-using std::cout;
-using std::endl;
-
+usning namespace std;
 // Example implementation of a resizable array (i.e. a vector).
 class Array {
 public:

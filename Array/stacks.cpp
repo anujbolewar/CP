@@ -1,5 +1,13 @@
 
 // stack<int> st (using STL)
+// insertion (push)   --> O(1)
+// deletion (pop)     --> O(1)
+// top() access       --> O(1)
+// searching          --> O(n)
+// traversal          --> O(n)
+
+
+
 #include <vector>
 
 using std::vector;
